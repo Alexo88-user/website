@@ -1,0 +1,67 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
+#unico{
+    color: deepskyblue;
+    font-size: 50px;
+}
+.amarillo{
+    color: gold;
+    margin-left: 100px;
+    margin: 100px;
+}
+.columna{
+    background: hotpink;
+    color: indigo;
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+}
+.padre{
+    display: flex;
+}
+.padre1{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-enlace{
+    display: inline-block;
+    background: lawngreen;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+.nav-enlace:hover{
+    background: blue;
+}
+nav{
+    background: blueviolet;
+    padding: 20px
+    ;
+}
+button{
+    background: coral;
+    color: darkblue;
+
+}
+button:hover{
+    background: darkgreen;
+    color: darkred;
+}
+@media (max-width: 600px) {
+    .padre .padra1 {
+        display: none;
+    }
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+}
+.flex{
+     display: flex;
+}
+.text-cent{
+    text-align: center;
+}
