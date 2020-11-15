@@ -1,0 +1,72 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+.title{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 400%;
+    margin: 0px 0px 1px 10px;
+}   
+
+.back{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:url(fondo3.jpeg) no-repeat top center #efeff1;
+  background-size:cover;
+}
+.thx{
+  position: fixed;
+  left:50%;
+  transform:translateX(-50%);
+  bottom: 15px;
+}
+nav{
+  width: 100%;
+  position: fixed;
+  top:50px;
+  text-align:center;
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color: #ffff;
+  margin:0 15px;
+  font-size:16px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+  
+}
+nav a:hover{
+  background: rgba(#e8e8e8);
+  opacity: 0.2;
+  border-radius: 5px;
+}
+.publi{
+    position: fixed;
+    top: 95%;
+    display:inline;
+    padding: 1px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.public{
+
+    background-color:red;
+    color:white;
+    text-decoration:none;
+    padding:4px 6px;
+    font-size:12px;
+    font-weight:bold;
+    line-height:1.2;
+    border-radius:3px;
+    text-align: bottom;
+
+    
+ 
+}
